@@ -1,0 +1,262 @@
+ *{
+    margin: 0;
+    box-sizing: border-box;
+
+ }
+
+ #parent{position: relative;}
+ .all{
+    position: absolute;
+    top:590px;
+    margin-left: 19px;
+
+ }
+
+ body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #141414;
+    font-size: 9.124px;
+   
+ }
+ .list{
+    margin: 0;
+    padding: 0;
+     font-size: 15px;
+    display: flex;
+
+     gap: 15px;
+     list-style: none;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     color: #e5e5e5;
+    }
+    .list li{
+        padding-top: 10px;     
+    cursor: pointer;
+   
+    text-decoration: none;
+ }
+ .list li:hover{
+     color:#b3b3b3;
+     transition: all 0.2s;
+    }
+
+ 
+ h2{
+    color: white;
+    padding-top: 5px;
+ }
+ 
+ 
+ .row_poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 150px;
+    margin-right: 10px;
+    
+    transition: transform 450ms;
+    
+ }
+ .row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 14px;
+ }
+ .row_poster:hover{
+    transform: scale(1.08);
+   
+ }
+ .row_posters::-webkit-scrollbar{
+   display: none;
+ }
+.row_posterLarge{
+    max-height: 270px;
+}
+.row_posterLarge:hover{
+    transform: scale(1.09);
+}
+.row{
+    color: white;
+    margin-left: 20px;
+    padding: 15px;
+  
+   
+}
+.banner{
+    background-image: url(netflix-images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    color:white;
+    height: 100%;
+    margin-top: 40px;
+}
+.sideposter{
+    width: 45%;
+    height: 45%;
+}
+.ban_content{
+    margin-left: 50px;
+    padding-top: 140px;
+    height: 190px;
+}
+.ban_title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 0.3rem;
+    text-shadow: 2px 2px 30px #000000;
+}
+.ban_desc{
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0;
+    margin-top:1vw; 
+    max-width: 500px;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.ban_button2{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   margin-right: 1rem;
+   padding-top:0.7rem;
+   padding-bottom:0.6rem;
+    background-color: rgba(109,109,110,0.7);
+
+}
+.ban_button1{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    color: black;
+    outline: none;
+    border: none;
+    font-weight: 900;
+    border-radius: 0.2rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   margin-right: 1rem;
+   padding-top:0.5rem;
+   padding-bottom:0.5rem;
+    background-color: rgb(255, 255, 255);
+
+}
+.ban_button1:hover{
+   background-color: rgba(255, 255, 255, 0.353);
+   transition: all 0.2s;
+}
+.ban_button2:hover{
+   background-color: rgba(109, 109, 110, 0.459);
+   transition: all 0.2s;
+}
+.ban_fadebottom{
+    margin-top:345px;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+   
+}
+.nav_logo{
+   
+   
+    margin-left: 50px;
+    width: 95.5px;
+    height: 33px;
+    object-fit: contain;
+    
+    
+}
+
+.nav{
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+   justify-content: space-between;
+    padding-top: 15px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+   
+}
+.navcont{
+display: flex;    
+gap: 25px;
+}
+.navlast{   
+    padding-top: 5px;
+    padding-right: 75px;
+    display: flex;
+    gap: 25px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.search1{  
+    margin-top: 5px;
+}
+
+.footersubcol{
+    margin-left: 125px;
+  display:flex;
+  float: left;
+  width: 10rem;
+  cursor: pointer;
+   
+} 
+.s-icon{
+    margin-left: 160px;
+    word-spacing: 15px;
+    padding-top: 4rem;
+    height:98px;
+   
+}
+.s-icon:hover{
+    cursor: pointer;
+}
+
+
+
+.footlist{
+    list-style: none;
+    cursor: pointer;
+    color: #808080;
+    font-size: 13.2px;
+    font-weight: 100;
+    padding-top: 0px;
+    
+}
+
+.copy-right{
+    font-size: 13px;
+      font-weight: 200;
+      color: #808080;
+      height: 15px;
+      padding-left: 130px;
+      z-index: 1;
+      margin-top: 10.7rem;
+      
+}
+.Servbutton{
+    margin-top: 24px;
+    
+   
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 1px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: #808080;
+    border: 1px solid rgba(255, 255, 255, 0.367);
+   cursor: pointer;
+   
+}
